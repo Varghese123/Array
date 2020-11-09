@@ -1,0 +1,51 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>
+Welcome</title>
+<link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+<h1 id="h1"> Assignment 1</h1>
+<div id="img" style="background-image: url('a.jpg');">
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+
+</div>
+<h4>Varray elements are:</h4>
+<table>
+<tr>
+<td th:each="varray: ${varray}" th:text="${varray}+','"></td>
+</tr>
+</table>
+
+<h4>Jarray elements are:</h4>
+
+<table>
+<tr>
+<td th:each="jarray: ${Jarray}" th:text="${jarray}+','">
+</td>
+</tr>
+
+
+
+</table>
+
+<h4>Larray elements are:</h4>
+<table>
+<tr>
+<td th:each="larray: ${larray}" th:text="${larray}+','"></td>
+</tr>
+
+
+</table>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<title>Assignment 1 for Varghese Eldhose</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1>Insert array details</h1>
+<form id="form" action="#" th:action="@{/add}" th:object="${Size}" method="get">
+<label for="rows" >Rows</label>
+<input type="text" name="rows" id="rows" th:field="*{m}" >
+<br><br>
+<label for="columns">Number of columns</label>
+<input type="text" name="columns" id="columns" th:field="*{n}">
+<br><br>
+<label for="probability">Probability of zero</label>
+<input type="text" id="probability" name="probability" th:field="*{probability}">
+<br><br>
+
+
+<input type="submit" id="submit" value="Submit">
+</form>
+<div id="img" style="background-image: url('b.jpg');"><br><br><br><br>
+<br><br><br><br><br><br>
+</div>
+</body>
+</html>

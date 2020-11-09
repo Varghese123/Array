@@ -1,0 +1,23 @@
+.body
+{   
+	padding-left:380px;
+	
+	width:1800px;
+	
+	background-color:gray;
+	
+	
+}
+
+
+
+#form
+{
+	border-style:solid;
+    border-width:5px;
+    background-color:white;
+    padding: 60px 60px 60px 60px;
+    width:1500px;
+}
+
+
